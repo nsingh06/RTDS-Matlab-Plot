@@ -1,0 +1,26 @@
+sudo xenalyze --summary trace.bin > trace_proc_output/xenalyze_summary.txt
+Using VMX hardware-assisted virtualization.
+scan_for_new_pcpu: Activating pcpu 0 at offset 0
+Creating vcpu 0 for dom 32768
+init_pcpus: through first trace write, done for now.
+scan_for_new_pcpu: Activating pcpu 1 at offset 128468
+Creating vcpu 1 for dom 32768
+Creating domain 1
+Creating vcpu 0 for dom 1
+Using first_tsc for d1v0 (2724 cycles)
+Creating domain 0
+Creating vcpu 1 for dom 0
+Using first_tsc for d0v1 (27681 cycles)
+Creating vcpu 0 for dom 0
+Creating domain 32767
+Creating vcpu 0 for dom 32767
+Creating vcpu 1 for dom 32767
+Creating vcpu 1 for dom 1
+Creating vcpu 2 for dom 1
+Creating vcpu 3 for dom 1
+read_record: read returned zero, deactivating pcpu 0
+deactivate_pcpu: setting d0v1 to state LOST
+read_record: read returned zero, deactivating pcpu 1
+deactivate_pcpu: setting d0v0 to state LOST
+deactivate_pcpu: Setting max_active_pcpu to -1
+
